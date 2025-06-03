@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1;
+    padding: 0 15%;
+    margin: var(--spacing-md) 0;
+}
+
+@media (max-width: 1024px) {
+    .main {
+        padding: 0 3rem;
+        margin: var(--spacing-sm) 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .main {
+        padding: 0 2rem;
+        margin: var(--spacing-sm) 0;
+    }
+}
+
+@media (max-width: 468px) {
+    .main {
+        padding: 0 1rem;
+        margin: var(--spacing-sm) 0;
+    }
+}

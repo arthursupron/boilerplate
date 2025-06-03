@@ -1,0 +1,112 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo_img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90px;
+    height: 90px;
+    border-radius: var(--border-radius-lg);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.hero_text {
+    margin-top: calc(var(--spacing-lg) * 2);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.hero_header {
+    font-family: 'Satoshi', 'Satoshi Placeholder', sans-serif;
+    width: 50%;
+    font-size: calc(var(--font-size-xl) * 1.5);
+    color: var(--font-color-middle);
+}
+
+.side_info {
+    margin-top: var(--spacing-lg);
+}
+
+.side_info_header {
+    color: var(--font-color-side);
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-bold);
+}
+
+.side_info_instruction {
+    margin-top: var(--spacing-md);
+    gap: 0;
+}
+
+.side_info_instruction > * {
+    color: var(--font-color-side);
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-medium);
+}
+
+.hero_link {
+    margin: calc(var(--spacing-lg) * 2) 0;
+}
+
+.hero_img {
+    height: 500px;
+}
+
+@media (max-width: 1024px) {
+    .logo_img {
+        width: 80px;
+        height: 80px;
+    }
+    .hero_text {
+        margin-top: var(--spacing-lg);
+    }
+    .hero_header {
+        width: 100%;
+    }
+    .hero_img {
+        height: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo_img {
+        width: 80px;
+        height: 80px;
+    }
+    .hero_text {
+        margin-top: var(--spacing-lg);
+    }
+    .hero_header {
+        width: 100%;
+        font-size: var(--font-size-xl);
+    }
+    .hero_img {
+        height: 300px;
+    }
+}
+
+@media (max-width: 468px) {
+    .logo_img {
+        width: 80px;
+        height: 80px;
+    }
+    .hero_text {
+        margin-top: var(--spacing-lg);
+    }
+    .hero_header {
+        width: 100%;
+        font-size: var(--font-size-xl);
+    }
+    .hero_img {
+        height: 300px;
+    }
+}

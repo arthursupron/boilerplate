@@ -1,0 +1,35 @@
+:root {
+    --font-inter: 'Inter', serif;
+    --font-lexend-deca: 'Lexend Deca', serif;
+
+    --font-size-xs: 12px;
+    --font-size-sm: 14px;
+    --font-size-md: 18px;
+    --font-size-ml: 20px;
+    --font-size-lg: 24px;
+    --font-size-xl: 32px;
+
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+
+    --font-color-main: rgb(0, 0, 0);
+    --font-color-middle: rgb(64, 64, 64);
+    --font-color-side: rgb(128, 128, 128);
+
+    --background: 255, 255, 255;
+    --footer-background: rgb(249, 249, 249);
+
+    --spacing-sm: 5px;
+    --spacing-md: 10px;
+    --spacing-lg: 20px;
+
+    --border-width-sm: 1px;
+    --border-width-md: 2px;
+    --border-width-lg: 3px;
+
+    --border-radius-sm: 4px;
+    --border-radius-md: 10px;
+    --border-radius-lg: 12px;
+}
